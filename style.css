@@ -421,8 +421,8 @@ section {
 
 .section-4-header-wrapper {
   position: absolute;
-  top: 27%;
-  left: 24%;
+  top: 25%;
+  left: 28%;
   transform: translate(-50%, -50%);
 }
 
@@ -434,6 +434,41 @@ section {
   border-bottom: 0.2rem solid #1ec5e1;
   text-align: left;
   user-select: none;
+}
+
+.section-4-paragraph {
+  letter-spacing: 0.1rem;
+  width: 53rem;
+  position: relative;
+  top: 2rem;
+  font-size: 1.1rem;
+}
+
+.links {
+  position: fixed;
+  top: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.github {
+  position: absolute;
+  left: 17%;
+  width: 13rem;
+}
+
+.linkedin {
+  position: absolute;
+  left: 44%;
+  width: 13rem;
+}
+
+.gmail {
+  position: absolute;
+  left: 72%;
+  width: 13rem;
 }
 
 @media (max-width: 1920px) {
