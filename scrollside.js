@@ -5,6 +5,8 @@ let bool = true;
 const sections = document.querySelectorAll("section");
 const progress = document.querySelector(".progress h2");
 const circles = document.querySelectorAll(".circle");
+const menu = document.querySelector(".menu");
+const nav = document.querySelector(".nav-list");
 
 const progressCounter = () => {
   progress.textContent = `${counter2}/${sections.length}`;
@@ -79,3 +81,11 @@ document.querySelector(".left-btn").addEventListener("click", () => {
 if (counter1 === 2) {
   document.querySelector(".section-1-paragraph2").style.visibility = "hidden";
 }
+
+menu.addEventListener("click", () => {
+  document.querySelector(".navbar").classList.toggle("change");
+});
+
+nav.addEventListener("click", () => {
+  document.querySelector("section-1").style.left = "0";
+});
