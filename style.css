@@ -168,7 +168,7 @@ section {
 
 .section-1-header-wrapper {
   position: absolute;
-  top: 37%;
+  top: 41%;
   left: 30%;
   transform: translate(-50%, -50%);
 }
@@ -199,6 +199,7 @@ section {
   font-size: 0.9rem;
   color: white;
   visibility: visible;
+  top: -2rem;
 }
 .column {
   float: left;
@@ -214,7 +215,7 @@ section {
 
 .section-1-quicklinks {
   position: relative;
-  top: 13rem;
+  top: 10rem;
   letter-spacing: 0.1rem;
   width: 53rem;
 }
@@ -255,12 +256,12 @@ section {
   letter-spacing: 0.1rem;
   width: 53rem;
   position: relative;
-  top: 2rem;
+  top: 1.2rem;
   font-size: 1.1rem;
 }
 
 .section-2-heading {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 300;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
@@ -310,8 +311,98 @@ section {
 .section-3-header-wrapper {
   position: absolute;
   top: 17%;
-  left: 26%;
+  left: 15%;
   transform: translate(-50%, -50%);
+}
+
+.section-3-heading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.2rem solid #1ec5e1;
+  text-align: left;
+  user-select: none;
+}
+
+.project1 {
+  position: absolute;
+  left: 10%;
+  top: 21%;
+}
+.project1img {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+.project1desc {
+  position: relative;
+  left: 1rem;
+}
+.project1-heading {
+  width: 30%;
+}
+.project1para {
+  width: 30%;
+  padding-top: 0.75rem;
+}
+
+.project2 {
+  position: absolute;
+  left: 10%;
+  top: 45%;
+}
+
+.project2img {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.project2desc {
+  position: relative;
+  left: 1rem;
+}
+.project2-heading {
+  width: 30%;
+}
+.project2para {
+  width: 30%;
+  padding-top: 0.75rem;
+}
+
+.project3 {
+  position: absolute;
+  left: 10%;
+  top: 72%;
+}
+
+.project3img {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.project3desc {
+  position: relative;
+  left: 1rem;
+}
+.project3-heading {
+  width: 30%;
+}
+.project3para {
+  width: 30%;
+  padding-top: 0.75rem;
+  margin-left: 3rem;
 }
 
 .section-4 {
@@ -330,17 +421,29 @@ section {
 
 .section-4-header-wrapper {
   position: absolute;
-  top: 17%;
-  left: 26%;
+  top: 27%;
+  left: 24%;
   transform: translate(-50%, -50%);
 }
 
+.section-4-heading {
+  font-size: 6rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.2rem solid #1ec5e1;
+  text-align: left;
+  user-select: none;
+}
+
+@media (max-width: 1920px) {
+}
 @media (max-width: 1600px) {
   .python {
-    width: 35rem;
+    width: 15rem;
   }
-  .html {
-    width: 65rem;
+  .html-tag {
+    width: 15rem;
   }
   .section-1-paragraph {
     font-size: 1.6rem;
