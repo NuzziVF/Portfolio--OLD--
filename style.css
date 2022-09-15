@@ -1147,3 +1147,44 @@ section {
     left: 65%;
   }
 }
+
+@media (max-height: 500px) {
+  .skills {
+    top: 75%;
+  }
+
+  .python {
+    left: 12%;
+    width: 9rem;
+  }
+
+  .html-tag {
+    left: 32%;
+    width: 9rem;
+  }
+
+  .django {
+    left: 52%;
+    width: 9rem;
+  }
+
+  .javascript {
+    left: 77%;
+    width: 9rem;
+  }
+
+  .java {
+    left: 22%;
+    width: 9rem;
+  }
+
+  .sql {
+    left: 42%;
+    width: 9rem;
+  }
+
+  .spring {
+    left: 64%;
+    width: 9rem;
+  }
+}
