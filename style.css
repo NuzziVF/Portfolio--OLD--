@@ -6,7 +6,7 @@
   outline: none;
   text-decoration: none;
   list-style-type: none;
-  font-family: "Aquire", sans-serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 html {
@@ -192,7 +192,7 @@ section {
   width: 53rem;
   position: relative;
   top: 2rem;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 .section-1-paragraph2 {
@@ -261,7 +261,7 @@ section {
   width: 53rem;
   position: relative;
   top: 1.2rem;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 .section-2-heading {
@@ -377,7 +377,7 @@ section {
 .section-3-header-wrapper {
   position: absolute;
   top: 17%;
-  left: 15%;
+  left: 13.3%;
   transform: translate(-50%, -50%);
 }
 
@@ -396,6 +396,7 @@ section {
   left: 10%;
   top: 21%;
 }
+
 .project1img {
   width: 13rem;
   display: flex;
@@ -404,15 +405,17 @@ section {
   justify-content: center;
   float: left;
 }
+
 .project1desc {
   position: relative;
   left: 1rem;
 }
 .project1-heading {
-  width: 30%;
+  width: 52%;
 }
+
 .project1para {
-  width: 30%;
+  width: 40%;
   padding-top: 0.75rem;
 }
 
@@ -436,10 +439,10 @@ section {
   left: 1rem;
 }
 .project2-heading {
-  width: 30%;
+  width: 34%;
 }
 .project2para {
-  width: 30%;
+  width: 35%;
   padding-top: 0.75rem;
 }
 
@@ -463,12 +466,12 @@ section {
   left: 1rem;
 }
 .project3-heading {
-  width: 30%;
+  width: 37%;
 }
 .project3para {
-  width: 30%;
+  width: 36%;
   padding-top: 0.75rem;
-  margin-left: 3rem;
+  margin-left: 6rem;
 }
 
 .section-4 {
@@ -507,7 +510,7 @@ section {
   width: 53rem;
   position: relative;
   top: 2rem;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 .links {
@@ -541,15 +544,12 @@ section {
 }
 
 @media (max-width: 1300px) {
-}
-
-@media (max-width: 1300px) {
   .nav-link {
     margin: 0 1.5rem;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   .nav-bar {
     position: absolute;
     justify-content: start;
@@ -661,13 +661,9 @@ section {
     top: 25%;
     left: 35%;
   }
-
-  .project3para {
-    padding-left: 10rem;
-  }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 870px) {
   .section-1-header-wrapper {
     top: 37%;
     left: 44%;
@@ -737,14 +733,7 @@ section {
   }
 
   .project1desc {
-    left: 13rem;
-    top: -11rem;
-  }
-
-  .project1para {
-    width: 28%;
-    padding-top: 0.75rem;
-    padding-left: 0rem;
+    left: 2rem;
   }
 
   .project2 {
@@ -774,11 +763,6 @@ section {
     left: 0.4rem;
   }
 
-  .project3para {
-    padding-left: 10rem;
-    width: 42%;
-  }
-
   .project3-heading {
     width: 40%;
   }
@@ -804,7 +788,7 @@ section {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 730px) {
   .section-1-header-wrapper {
     top: 48%;
     left: 46%;
@@ -884,20 +868,16 @@ section {
     width: 10rem;
   }
 
-  .project1desc {
-    left: 11.6rem;
-    top: -10rem;
-  }
-
   .project1-heading {
     font-size: 1.2rem;
   }
+
   .project1para {
     font-size: 0.8rem;
   }
 
   .project2 {
-    left: 12.3%;
+    left: 10.3%;
   }
 
   .project2img {
@@ -932,7 +912,6 @@ section {
   }
 
   .project3para {
-    padding-left: 7rem;
     width: 43%;
     font-size: 0.8rem;
   }
@@ -965,5 +944,141 @@ section {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 580px) {
+  .right-btn {
+    left: 1rem;
+  }
+
+  .left-btn {
+    right: 1rem;
+  }
+
+  .section-1-header-wrapper {
+    left: 55%;
+  }
+
+  .section-1-heading {
+    width: 26rem;
+  }
+
+  .section-1-paragraph {
+    width: 26rem;
+  }
+
+  .section-2-paragraph {
+    width: 23rem;
+    font-size: 1rem;
+  }
+
+  .python {
+    width: 7rem;
+    left: 12%;
+  }
+
+  .html-tag {
+    left: 31%;
+    width: 7rem;
+  }
+
+  .django {
+    width: 7rem;
+  }
+
+  .javascript {
+    left: 70%;
+    width: 7rem;
+  }
+
+  .java {
+    top: -6rem;
+    width: 7rem;
+  }
+
+  .sql {
+    top: -3rem;
+    width: 8rem;
+  }
+
+  .spring {
+    top: -4rem;
+    width: 7rem;
+  }
+
+  .project1 {
+    left: 4.7rem;
+  }
+
+  .project1img {
+    width: 8rem;
+  }
+
+  .project1desc {
+    left: 1rem;
+  }
+
+  .project1-heading {
+    font-size: 1.3rem;
+  }
+
+  .project1para {
+    font-size: 0.9rem;
+    padding-left: 8rem;
+    width: 54%;
+  }
+
+  .project2 {
+    left: 11.6%;
+  }
+
+  .project2img {
+    width: 8rem;
+  }
+
+  .project2desc {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .project2para {
+    padding-left: 8rem;
+    font-size: 0.9rem;
+    width: 52%;
+  }
+
+  .project3 {
+    left: 4.7rem;
+  }
+
+  .project3img {
+    width: 8rem;
+  }
+
+  .project3desc {
+    left: 1.2rem;
+  }
+
+  .project3para {
+    width: 52%;
+    padding-left: 2rem;
+  }
+
+  .section-4-paragraph {
+    width: 22rem;
+    font-size: 1.3rem;
+  }
+
+  .github {
+    left: 12%;
+    width: 7rem;
+  }
+
+  .linkedin {
+    left: 40%;
+    width: 7rem;
+  }
+
+  .gmail {
+    left: 70%;
+    width: 7rem;
+  }
 }
