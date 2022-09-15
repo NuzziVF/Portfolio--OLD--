@@ -1121,7 +1121,7 @@ section {
 
   .django {
     width: 6rem;
-    left: 21rem;
+    left: 24.7rem;
   }
 
   .javascript {
@@ -1148,7 +1148,7 @@ section {
   }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 500px) and (max-width: 700px) {
   .skills {
     top: 75%;
   }
