@@ -1082,3 +1082,68 @@ section {
     width: 7rem;
   }
 }
+
+@media (max-width: 390px) {
+  .section-1-header-wrapper {
+    left: 62%;
+  }
+
+  .section-1-heading {
+    width: 22rem;
+    font-size: 3.1rem;
+    font-weight: 500;
+  }
+
+  .section-1-paragraph {
+    width: 19rem;
+    font-size: 1.1rem;
+  }
+
+  .section-2-heading {
+    font-size: 3.5rem;
+    width: 16rem;
+  }
+
+  .section-2-paragraph {
+    width: 18rem;
+    font-size: 1.1rem;
+  }
+
+  .python {
+    width: 6rem;
+    left: 16%;
+  }
+
+  .html-tag {
+    left: 40%;
+    width: 6rem;
+  }
+
+  .django {
+    width: 6rem;
+    left: 21rem;
+  }
+
+  .javascript {
+    left: 40%;
+    width: 6rem;
+    top: -9rem;
+  }
+
+  .java {
+    left: 16%;
+    top: -2rem;
+    width: 6rem;
+  }
+
+  .sql {
+    top: 0.3rem;
+    width: 7rem;
+  }
+
+  .spring {
+    top: -1rem;
+    width: 6rem;
+    left: 65%;
+  }
+}
