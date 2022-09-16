@@ -1028,8 +1028,12 @@ section {
     width: 7rem;
   }
 
+  .section-3-header-wrapper {
+    left: 21.7%;
+  }
+
   .project1 {
-    left: 6.7rem;
+    left: 6.1rem;
   }
 
   .project1img {
