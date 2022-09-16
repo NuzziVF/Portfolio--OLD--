@@ -21,6 +21,7 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  display: none;
 }
 
 .menu {
@@ -377,13 +378,13 @@ section {
 
 .section-3-header-wrapper {
   position: absolute;
-  top: 17%;
-  left: 37.3%;
+  top: 11%;
+  left: 44.3%;
   transform: translate(-50%, -50%);
 }
 
 .section-3-heading {
-  font-size: 1.5rem;
+  font-size: 5.5rem;
   font-weight: 300;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
@@ -735,11 +736,11 @@ section {
 
   .section-3-header-wrapper {
     top: 7%;
-    left: 37%;
+    left: 45.2%;
   }
 
   .project1 {
-    top: 12%;
+    top: 20%;
     left: 32.3%;
   }
 
@@ -757,7 +758,7 @@ section {
   }
 
   .project2 {
-    top: 32%;
+    top: 46%;
     left: 32.2%;
   }
 
@@ -874,11 +875,11 @@ section {
   }
 
   .section-3-header-wrapper {
-    left: 21%;
+    left: 26%;
   }
 
   .section-3-heading {
-    font-size: 1.55rem;
+    font-size: 3.55rem;
   }
 
   .project1 {
@@ -1029,7 +1030,7 @@ section {
   }
 
   .section-3-header-wrapper {
-    left: 21.7%;
+    left: 47.7%;
   }
 
   .project1 {
@@ -1129,7 +1130,7 @@ section {
   }
 
   .section-3-header-wrapper {
-    left: 25%;
+    left: 53%;
   }
 
   .section-2-heading {
@@ -1185,7 +1186,7 @@ section {
   }
 
   .project2 {
-    top: 35%;
+    top: 46%;
   }
 }
 
