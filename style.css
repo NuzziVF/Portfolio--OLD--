@@ -192,7 +192,7 @@ section {
   width: 53rem;
   position: relative;
   top: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 }
 
 .section-1-paragraph2 {
@@ -202,7 +202,7 @@ section {
   right: 0px;
   font-size: 0.9rem;
   color: white;
-  visibility: visible;
+  visibility: hidden;
   top: 6rem;
 }
 .column {
@@ -261,7 +261,7 @@ section {
   width: 53rem;
   position: relative;
   top: 1.2rem;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 }
 
 .section-2-heading {
@@ -296,24 +296,24 @@ section {
 
 .html-tag {
   opacity: 0.9;
-  width: 13rem;
+  width: 16rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 19%;
+  left: 17%;
 }
 
 .django {
   opacity: 0.9;
-  width: 13rem;
+  width: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 32%;
+  left: 30.3%;
 }
 
 .javascript {
@@ -340,13 +340,14 @@ section {
 
 .sql {
   opacity: 0.9;
-  width: 13rem;
+  width: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 70%;
+  left: 69%;
+  top: -3rem;
 }
 
 .spring {
@@ -377,7 +378,7 @@ section {
 .section-3-header-wrapper {
   position: absolute;
   top: 17%;
-  left: 13.3%;
+  left: 37.3%;
   transform: translate(-50%, -50%);
 }
 
@@ -393,7 +394,7 @@ section {
 
 .project1 {
   position: absolute;
-  left: 10%;
+  left: 34%;
   top: 21%;
 }
 
@@ -412,17 +413,19 @@ section {
 }
 .project1-heading {
   width: 52%;
+  font-size: 1.8rem;
 }
 
 .project1para {
-  width: 40%;
+  width: 53%;
   padding-top: 0.75rem;
+  font-size: 1.9rem;
 }
 
 .project2 {
   position: absolute;
-  left: 10%;
-  top: 45%;
+  left: 34%;
+  top: 50%;
 }
 
 .project2img {
@@ -442,8 +445,9 @@ section {
   width: 34%;
 }
 .project2para {
-  width: 35%;
+  width: 55%;
   padding-top: 0.75rem;
+  font-size: 1.9rem;
 }
 
 .project3 {
@@ -472,6 +476,7 @@ section {
   width: 36%;
   padding-top: 0.75rem;
   margin-left: 6rem;
+  font-size: 1.2rem;
 }
 
 .section-4 {
@@ -510,7 +515,7 @@ section {
   width: 53rem;
   position: relative;
   top: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 }
 
 .links {
@@ -536,8 +541,9 @@ section {
 
 .gmail {
   position: absolute;
-  left: 72%;
-  width: 13rem;
+  left: 70%;
+  width: 18.2rem;
+  top: -2.5rem;
 }
 
 @media (max-width: 1600px) {
@@ -675,13 +681,21 @@ section {
     font-size: 4.8rem;
   }
   .section-1-paragraph {
-    font-size: 0.9rem;
+    font-size: 01.5rem;
     width: 48rem;
   }
 
   .section-2-header-wrapper {
     top: 22%;
-    left: 43%;
+    left: 48%;
+  }
+
+  .section-2-heading {
+    text-align: center;
+  }
+
+  .section-2-paragraph {
+    text-align: center;
   }
 
   .python {
@@ -721,11 +735,12 @@ section {
 
   .section-3-header-wrapper {
     top: 7%;
-    left: 17%;
+    left: 37%;
   }
 
   .project1 {
     top: 12%;
+    left: 32.3%;
   }
 
   .project1img {
@@ -736,9 +751,14 @@ section {
     left: 2rem;
   }
 
+  .project1para {
+    width: 74%;
+    padding-left: 11rem;
+  }
+
   .project2 {
-    left: 9%;
     top: 32%;
+    left: 32.2%;
   }
 
   .project2img {
@@ -746,12 +766,12 @@ section {
   }
 
   .project2desc {
-    left: 2rem;
+    left: 1.1rem;
     top: 1rem;
   }
 
   .project2para {
-    width: 47%;
+    width: 74%;
     padding-left: 12rem;
   }
 
@@ -783,8 +803,9 @@ section {
   }
 
   .gmail {
-    left: 68%;
-    width: 12rem;
+    left: 66%;
+    width: 17rem;
+    top: -2.4rem;
   }
 }
 
@@ -812,7 +833,7 @@ section {
 
   .section-2-paragraph {
     width: 34rem;
-    font-size: 0.9rem;
+    font-size: 01.5rem;
   }
 
   .python {
@@ -857,7 +878,7 @@ section {
   }
 
   .section-3-heading {
-    font-size: 1.4rem;
+    font-size: 1.55rem;
   }
 
   .project1 {
@@ -869,11 +890,12 @@ section {
   }
 
   .project1-heading {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
   .project1para {
-    font-size: 0.8rem;
+    font-size: 1.7rem;
+    padding-left: 10.1rem;
   }
 
   .project2 {
@@ -886,12 +908,12 @@ section {
 
   .project2-heading {
     width: 40%;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
 
   .project2para {
     padding-left: 10.1rem;
-    font-size: 0.8rem;
+    font-size: 1.7rem;
   }
 
   .project3 {
@@ -940,7 +962,9 @@ section {
   }
 
   .gmail {
-    width: 9rem;
+    left: 65%;
+    width: 12.7rem;
+    top: -1.8rem;
   }
 }
 
@@ -967,7 +991,7 @@ section {
 
   .section-2-paragraph {
     width: 23rem;
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
 
   .python {
@@ -1005,7 +1029,7 @@ section {
   }
 
   .project1 {
-    left: 4.7rem;
+    left: 6.7rem;
   }
 
   .project1img {
@@ -1021,13 +1045,13 @@ section {
   }
 
   .project1para {
-    font-size: 0.9rem;
+    font-size: 01.5rem;
     padding-left: 8rem;
-    width: 54%;
+    width: 75%;
   }
 
   .project2 {
-    left: 11.6%;
+    left: 11.9%;
   }
 
   .project2img {
@@ -1041,8 +1065,8 @@ section {
 
   .project2para {
     padding-left: 8rem;
-    font-size: 0.9rem;
-    width: 52%;
+    font-size: 01.5rem;
+    width: 75%;
   }
 
   .project3 {
@@ -1073,13 +1097,14 @@ section {
   }
 
   .linkedin {
-    left: 40%;
+    left: 36%;
     width: 7rem;
   }
 
   .gmail {
-    left: 70%;
-    width: 7rem;
+    left: 63%;
+    width: 10rem;
+    top: -1.5rem;
   }
 }
 
@@ -1096,7 +1121,11 @@ section {
 
   .section-1-paragraph {
     width: 19rem;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+  }
+
+  .section-3-header-wrapper {
+    left: 25%;
   }
 
   .section-2-heading {
@@ -1106,7 +1135,7 @@ section {
 
   .section-2-paragraph {
     width: 18rem;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 
   .python {
@@ -1145,6 +1174,14 @@ section {
     top: -1rem;
     width: 6rem;
     left: 65%;
+  }
+
+  .project1 {
+    left: 4.7rem;
+  }
+
+  .project2 {
+    top: 35%;
   }
 }
 
