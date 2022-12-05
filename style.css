@@ -376,22 +376,6 @@ section {
   height: 100%;
 }
 
-.section-3-header-wrapper {
-  position: absolute;
-  top: 11%;
-  left: 44.3%;
-  transform: translate(-50%, -50%);
-}
-
-.section-3-heading {
-  font-size: 5.5rem;
-  font-weight: 300;
-  text-transform: capitalize;
-  letter-spacing: 0.1rem;
-  border-bottom: 0.2rem solid #1ec5e1;
-  text-align: left;
-  user-select: none;
-}
 
 .project1 {
   position: absolute;
@@ -451,34 +435,6 @@ section {
   font-size: 1.9rem;
 }
 
-.project3 {
-  position: absolute;
-  left: 10%;
-  top: 72%;
-}
-
-.project3img {
-  width: 13rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  float: left;
-}
-
-.project3desc {
-  position: relative;
-  left: 1rem;
-}
-.project3-heading {
-  width: 37%;
-}
-.project3para {
-  width: 36%;
-  padding-top: 0.75rem;
-  margin-left: 6rem;
-  font-size: 1.2rem;
-}
 
 .section-4 {
   z-index: 20;
@@ -734,10 +690,6 @@ section {
     top: 0rem;
   }
 
-  .section-3-header-wrapper {
-    top: 7%;
-    left: 45.2%;
-  }
 
   .project1 {
     top: 20%;
@@ -776,17 +728,6 @@ section {
     padding-left: 12rem;
   }
 
-  .project3 {
-    top: 55%;
-  }
-
-  .project3desc {
-    left: 0.4rem;
-  }
-
-  .project3-heading {
-    width: 40%;
-  }
 
   .section-4-header-wrapper {
     top: 19%;
@@ -874,14 +815,6 @@ section {
     width: 9rem;
   }
 
-  .section-3-header-wrapper {
-    left: 26%;
-  }
-
-  .section-3-heading {
-    font-size: 3.55rem;
-  }
-
   .project1 {
     left: 7.3rem;
   }
@@ -917,27 +850,6 @@ section {
     font-size: 1.7rem;
   }
 
-  .project3 {
-    top: 55%;
-    left: 7.3rem;
-  }
-
-  .project3img {
-    width: 10rem;
-  }
-
-  .project3desc {
-    left: 2.2rem;
-  }
-
-  .project3-heading {
-    font-size: 1.2rem;
-  }
-
-  .project3para {
-    width: 43%;
-    font-size: 0.8rem;
-  }
 
   .section-4-heading {
     font-size: 4rem;
@@ -1029,10 +941,6 @@ section {
     width: 7rem;
   }
 
-  .section-3-header-wrapper {
-    left: 47.7%;
-  }
-
   .project1 {
     left: 6.1rem;
   }
@@ -1074,22 +982,6 @@ section {
     width: 75%;
   }
 
-  .project3 {
-    left: 4.7rem;
-  }
-
-  .project3img {
-    width: 8rem;
-  }
-
-  .project3desc {
-    left: 1.2rem;
-  }
-
-  .project3para {
-    width: 52%;
-    padding-left: 2rem;
-  }
 
   .section-4-paragraph {
     width: 22rem;
@@ -1129,9 +1021,6 @@ section {
     font-size: 1.4rem;
   }
 
-  .section-3-header-wrapper {
-    left: 53%;
-  }
 
   .section-2-heading {
     font-size: 3.5rem;

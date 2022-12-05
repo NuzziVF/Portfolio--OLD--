@@ -1,0 +1,170 @@
+            <div class="section-3-header-wrapper">
+              <h1 class="section-3-heading">My Projects</h1>
+            </div>
+            <a href="https://replit.com/@unitproject1/Pokemonafterthewipe#main.py" target="_blank">
+              <div class="project1">
+                <img src="images/project1.png" alt="PokemonBattle" class="project1img" />
+                <div class="project1desc">
+                  <h2 class="project1-heading">PokemonBattle</h2>
+                  <p class="project1para">
+                    This was my first group project, I was in charge of making
+                    the battle itself. Navigate to the Pokeball, choose your
+                    starter, and try your best to beat the wild encounter.<br>
+                    Language: Python
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="https://github.com/NuzziVF/CRUD_Line_Editor" target="_blank">
+              <div class="project2">
+                <img src="images/project2.png" alt="CRUD" class="project2img" />
+                <div class="project2desc">
+                  <h2 class="project2-heading">CRUD</h2>
+                  <p class="project2para">
+                    In this group project we made code that allows you to make
+                    code. I worked on the edit feature and the commands.<br>
+                    Language: Python
+                  </p>
+                </div>
+              </div>
+            </a>
+
+
+px global
+
+
+.section-3-header-wrapper {
+  position: absolute;
+  top: 11%;
+  left: 44.3%;
+  transform: translate(-50%, -50%);
+}
+
+
+.section-3-heading {
+  font-size: 5.5rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.2rem solid #1ec5e1;
+  text-align: left;
+  user-select: none;
+}
+
+
+.project3 {
+  position: absolute;
+  left: 10%;
+  top: 72%;
+}
+
+.project3img {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.project3desc {
+  position: relative;
+  left: 1rem;
+}
+.project3-heading {
+  width: 37%;
+}
+.project3para {
+  width: 36%;
+  padding-top: 0.75rem;
+  margin-left: 6rem;
+  font-size: 1.2rem;
+}
+
+px 870
+
+
+  .section-3-header-wrapper {
+    top: 7%;
+    left: 45.2%;
+  }
+
+  .project3 {
+    top: 55%;
+  }
+
+  .project3desc {
+    left: 0.4rem;
+  }
+
+  .project3-heading {
+    width: 40%;
+  }
+
+px 730
+
+  .section-3-header-wrapper {
+    left: 26%;
+  }
+
+
+  .section-3-heading {
+    font-size: 3.55rem;
+  }
+
+
+  .project3 {
+    top: 55%;
+    left: 7.3rem;
+  }
+
+  .project3img {
+    width: 10rem;
+  }
+
+  .project3desc {
+    left: 2.2rem;
+  }
+
+  .project3-heading {
+    font-size: 1.2rem;
+  }
+
+  .project3para {
+    width: 43%;
+    font-size: 0.8rem;
+  }
+
+
+px 580
+
+
+  .section-3-header-wrapper {
+    left: 47.7%;
+  }
+
+
+  .project3 {
+    left: 4.7rem;
+  }
+
+  .project3img {
+    width: 8rem;
+  }
+
+  .project3desc {
+    left: 1.2rem;
+  }
+
+  .project3para {
+    width: 52%;
+    padding-left: 2rem;
+  }
+
+
+px 390
+
+
+  .section-3-header-wrapper {
+    left: 53%;
+  }
