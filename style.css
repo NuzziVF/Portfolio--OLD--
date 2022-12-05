@@ -376,65 +376,25 @@ section {
   height: 100%;
 }
 
-
-.project1 {
-  position: absolute;
-  left: 34%;
-  top: 21%;
+.entire-section3 img {
+  width: 10rem;
 }
 
-.project1img {
-  width: 13rem;
+.flex-bubble {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  float: left;
+  flex-wrap: wrap;
+  padding-left: 68px;
 }
 
-.project1desc {
-  position: relative;
-  left: 1rem;
-}
-.project1-heading {
-  width: 52%;
-  font-size: 1.8rem;
-}
-
-.project1para {
-  width: 53%;
-  padding-top: 0.75rem;
-  font-size: 1.9rem;
-}
-
-.project2 {
-  position: absolute;
-  left: 34%;
-  top: 50%;
-}
-
-.project2img {
-  width: 13rem;
+.content-bubble {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  float: left;
+  margin: 1em;
+  padding: 1.5em;
+  width: 33rem;
+  padding-left: 8rem;
 }
-
-.project2desc {
-  position: relative;
-  left: 1rem;
-}
-.project2-heading {
-  width: 34%;
-}
-.project2para {
-  width: 55%;
-  padding-top: 0.75rem;
-  font-size: 1.9rem;
-}
-
 
 .section-4 {
   z-index: 20;
@@ -690,45 +650,6 @@ section {
     top: 0rem;
   }
 
-
-  .project1 {
-    top: 20%;
-    left: 32.3%;
-  }
-
-  .project1img {
-    width: 11rem;
-  }
-
-  .project1desc {
-    left: 2rem;
-  }
-
-  .project1para {
-    width: 74%;
-    padding-left: 11rem;
-  }
-
-  .project2 {
-    top: 46%;
-    left: 32.2%;
-  }
-
-  .project2img {
-    width: 12rem;
-  }
-
-  .project2desc {
-    left: 1.1rem;
-    top: 1rem;
-  }
-
-  .project2para {
-    width: 74%;
-    padding-left: 12rem;
-  }
-
-
   .section-4-header-wrapper {
     top: 19%;
     left: 43%;
@@ -814,42 +735,6 @@ section {
     top: -2rem;
     width: 9rem;
   }
-
-  .project1 {
-    left: 7.3rem;
-  }
-
-  .project1img {
-    width: 10rem;
-  }
-
-  .project1-heading {
-    font-size: 1.8rem;
-  }
-
-  .project1para {
-    font-size: 1.7rem;
-    padding-left: 10.1rem;
-  }
-
-  .project2 {
-    left: 10.3%;
-  }
-
-  .project2img {
-    width: 10rem;
-  }
-
-  .project2-heading {
-    width: 40%;
-    font-size: 1.7rem;
-  }
-
-  .project2para {
-    padding-left: 10.1rem;
-    font-size: 1.7rem;
-  }
-
 
   .section-4-heading {
     font-size: 4rem;
@@ -941,48 +826,6 @@ section {
     width: 7rem;
   }
 
-  .project1 {
-    left: 6.1rem;
-  }
-
-  .project1img {
-    width: 8rem;
-  }
-
-  .project1desc {
-    left: 1rem;
-  }
-
-  .project1-heading {
-    font-size: 1.3rem;
-  }
-
-  .project1para {
-    font-size: 01.5rem;
-    padding-left: 8rem;
-    width: 75%;
-  }
-
-  .project2 {
-    left: 11.9%;
-  }
-
-  .project2img {
-    width: 8rem;
-  }
-
-  .project2desc {
-    top: 1rem;
-    left: 1rem;
-  }
-
-  .project2para {
-    padding-left: 8rem;
-    font-size: 01.5rem;
-    width: 75%;
-  }
-
-
   .section-4-paragraph {
     width: 22rem;
     font-size: 1.3rem;
@@ -1020,7 +863,6 @@ section {
     width: 19rem;
     font-size: 1.4rem;
   }
-
 
   .section-2-heading {
     font-size: 3.5rem;
@@ -1068,14 +910,6 @@ section {
     top: -1rem;
     width: 6rem;
     left: 65%;
-  }
-
-  .project1 {
-    left: 4.7rem;
-  }
-
-  .project2 {
-    top: 46%;
   }
 }
 

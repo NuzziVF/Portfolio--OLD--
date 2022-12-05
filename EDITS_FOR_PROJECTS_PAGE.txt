@@ -17,7 +17,7 @@
             </a>
             <a href="https://github.com/NuzziVF/CRUD_Line_Editor" target="_blank">
               <div class="project2">
-                <img src="images/project2.png" alt="CRUD" class="project2img" />
+                
                 <div class="project2desc">
                   <h2 class="project2-heading">CRUD</h2>
                   <p class="project2para">
@@ -49,6 +49,65 @@ px global
   border-bottom: 0.2rem solid #1ec5e1;
   text-align: left;
   user-select: none;
+}
+
+
+.project1 {
+  position: absolute;
+  left: 34%;
+  top: 21%;
+}
+
+.project1img {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.project1desc {
+  position: relative;
+  left: 1rem;
+}
+.project1-heading {
+  width: 52%;
+  font-size: 1.8rem;
+}
+
+.project1para {
+  width: 53%;
+  padding-top: 0.75rem;
+  font-size: 1.9rem;
+}
+
+.project2 {
+  position: absolute;
+  left: 34%;
+  top: 50%;
+}
+
+.project2img {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.project2desc {
+  position: relative;
+  left: 1rem;
+}
+.project2-heading {
+  width: 34%;
+}
+.project2para {
+  width: 55%;
+  padding-top: 0.75rem;
+  font-size: 1.9rem;
 }
 
 
@@ -89,6 +148,45 @@ px 870
     left: 45.2%;
   }
 
+
+  .project1 {
+    top: 20%;
+    left: 32.3%;
+  }
+
+  .project1img {
+    width: 11rem;
+  }
+
+  .project1desc {
+    left: 2rem;
+  }
+
+  .project1para {
+    width: 74%;
+    padding-left: 11rem;
+  }
+
+  .project2 {
+    top: 46%;
+    left: 32.2%;
+  }
+
+  .project2img {
+    width: 12rem;
+  }
+
+  .project2desc {
+    left: 1.1rem;
+    top: 1rem;
+  }
+
+  .project2para {
+    width: 74%;
+    padding-left: 12rem;
+  }
+
+
   .project3 {
     top: 55%;
   }
@@ -110,6 +208,42 @@ px 730
 
   .section-3-heading {
     font-size: 3.55rem;
+  }
+
+
+  .project1 {
+    left: 7.3rem;
+  }
+
+  .project1img {
+    width: 10rem;
+  }
+
+  .project1-heading {
+    font-size: 1.8rem;
+  }
+
+  .project1para {
+    font-size: 1.7rem;
+    padding-left: 10.1rem;
+  }
+
+  .project2 {
+    left: 10.3%;
+  }
+
+  .project2img {
+    width: 10rem;
+  }
+
+  .project2-heading {
+    width: 40%;
+    font-size: 1.7rem;
+  }
+
+  .project2para {
+    padding-left: 10.1rem;
+    font-size: 1.7rem;
   }
 
 
@@ -144,6 +278,48 @@ px 580
   }
 
 
+  .project1 {
+    left: 6.1rem;
+  }
+
+  .project1img {
+    width: 8rem;
+  }
+
+  .project1desc {
+    left: 1rem;
+  }
+
+  .project1-heading {
+    font-size: 1.3rem;
+  }
+
+  .project1para {
+    font-size: 01.5rem;
+    padding-left: 8rem;
+    width: 75%;
+  }
+
+  .project2 {
+    left: 11.9%;
+  }
+
+  .project2img {
+    width: 8rem;
+  }
+
+  .project2desc {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .project2para {
+    padding-left: 8rem;
+    font-size: 01.5rem;
+    width: 75%;
+  }
+
+
   .project3 {
     left: 4.7rem;
   }
@@ -167,4 +343,13 @@ px 390
 
   .section-3-header-wrapper {
     left: 53%;
+  }
+
+
+  .project1 {
+    left: 4.7rem;
+  }
+
+  .project2 {
+    top: 46%;
   }
