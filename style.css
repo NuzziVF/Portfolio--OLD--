@@ -376,14 +376,33 @@ section {
   height: 100%;
 }
 
+.entire-section3 {
+  font-size: 1.4rem;
+}
+
 .entire-section3 img {
   width: 10rem;
+  margin: 1rem;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.section-3-header-wrapper {
+  width: 25rem;
+  font-size: 3.4rem;
+  margin: 12rem;
+  margin-bottom: 0;
+  margin-top: 5rem;
 }
 
 .flex-bubble {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 68px;
+  padding: 5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 5rem;
+  margin-top: 2rem;
 }
 
 .content-bubble {
@@ -392,8 +411,13 @@ section {
   flex-direction: column;
   margin: 1em;
   padding: 1.5em;
-  width: 33rem;
-  padding-left: 8rem;
+  width: 40rem;
+  border: solid 1px;
+  margin-bottom: 5px;
+}
+
+.content-bubble p {
+  font-size: 1.8rem;
 }
 
 .section-4 {
@@ -463,7 +487,34 @@ section {
   top: -2.5rem;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1500px) {
+  .entire-section3 {
+    font-size: 1.3rem;
+  }
+  .content-bubble {
+    width: 39rem;
+  }
+  .flex-bubble {
+    padding: 3rem;
+  }
+  .section-3-header-wrapper {
+    margin: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .flex-bubble {
+    margin-top: 1rem;
+    padding-top: 0;
+  }
+  .content-bubble p {
+    font-size: 1.5rem;
+  }
+  .content-bubble {
+    width: 25rem;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -586,6 +637,38 @@ section {
   }
 }
 
+@media (max-width: 1000px) {
+  .entire-section3 {
+    font-size: 1.1rem;
+  }
+
+  .flex-bubble {
+    padding: 2rem;
+    padding-top: 0rem;
+    margin-top: 1rem;
+  }
+
+  .content-bubble {
+    width: 25rem;
+  }
+
+  .content-bubble p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 955px) {
+  .content-bubble {
+    width: 24rem;
+  }
+}
+
+@media (max-width: 925px) {
+  .content-bubble {
+    width: 22rem;
+  }
+}
+
 @media (max-width: 870px) {
   .section-1-header-wrapper {
     top: 37%;
@@ -650,6 +733,10 @@ section {
     top: 0rem;
   }
 
+  .content-bubble {
+    width: 20rem;
+  }
+
   .section-4-header-wrapper {
     top: 19%;
     left: 43%;
@@ -669,6 +756,25 @@ section {
     left: 66%;
     width: 17rem;
     top: -2.4rem;
+  }
+}
+
+@media (max-width: 805px) {
+  .entire-section3 {
+    font-size: 0.9rem;
+  }
+
+  .section-3-header-wrapper {
+    font-size: 2.8rem;
+  }
+  .content-bubble {
+    width: 16rem;
+  }
+  .content-bubble p {
+    font-size: 1.4rem;
+  }
+  .entire-section3 img {
+    width: 8rem;
   }
 }
 
@@ -763,6 +869,25 @@ section {
     left: 65%;
     width: 12.7rem;
     top: -1.8rem;
+  }
+}
+
+@media (max-width: 674px) {
+  .section-3-header-wrapper {
+    margin: 5.1rem;
+  }
+  .flex-bubble {
+    padding: 0.6rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
+    margin: 3.6rem;
+  }
+  .content-bubble {
+    width: 13.2rem;
+    margin: 0.6em;
+  }
+  .content-bubble p {
+    font-size: 1.2rem;
   }
 }
 
