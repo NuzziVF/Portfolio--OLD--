@@ -517,6 +517,12 @@ section {
   }
 }
 
+@media (max-height: 590px) {
+  .content-bubble {
+    width: 19rem;
+  }
+}
+
 @media (max-width: 1300px) {
   .nav-link {
     margin: 0 1.5rem;
