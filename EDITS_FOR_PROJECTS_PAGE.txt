@@ -353,3 +353,65 @@ px 390
   .project2 {
     top: 46%;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+  Recent edits:
+
+
+                  <div class="project-1 content-bubble">
+                  <a
+                    href="https://replit.com/@unitproject1/Pokemonafterthewipe#main.py"
+                    target="_blank"
+                  >
+                    <img
+                      src="images/project1.png"
+                      alt="PokemonBattle"
+                      class="project1img"
+                    />
+                  </a>
+                  <a
+                    href="https://replit.com/@unitproject1/Pokemonafterthewipe#main.py"
+                    target="_blank"
+                  >
+                    <h2>Pokemon Battler</h2>
+                  </a>
+                  <p>
+                    This was my first group project, I was in charge of making
+                    the battle itself. Navigate to the Pokeball, choose your
+                    starter, and try your best to beat the wild encounter.
+                  </p>
+                  <p>Language: Python</p>
+                </div>
+                <div class="project-2 content-bubble">
+                  <a
+                    href="https://github.com/NuzziVF/CRUD_Line_Editor"
+                    target="_blank"
+                  >
+                    <img
+                      src="images/project2.png"
+                      alt="CRUD"
+                      class="project2img"
+                    />
+                  </a>
+                  <a
+                    href="https://github.com/NuzziVF/CRUD_Line_Editor"
+                    target="_blank"
+                  >
+                    <h2>CRUD</h2>
+                  </a>
+                  <p>
+                    In this group project we made code that allows you to make
+                    code. I worked on the edit feature and the commands.
+                  </p>
+                  <p>Language: Python</p>
+                </div>
