@@ -7,6 +7,7 @@
   text-decoration: none;
   list-style-type: none;
   font-family: "Cormorant Garamond", serif;
+  background-color: black;
 }
 
 html {
@@ -162,11 +163,6 @@ section {
 }
 
 .section-1-wrapper {
-  /*
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url(images/background.png) center no-repeat;
-  background-size: cover;
-  */
   background: black;
   height: 100%;
 }
@@ -366,14 +362,15 @@ section {
   z-index: 30;
 }
 
+.projects_button {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
 .section-3-wrapper {
-  /*
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url(images/background.png) center no-repeat;
-  background-size: cover;
-  */
   background: black;
   height: 100%;
+  text-align: center;
 }
 
 .entire-section3 {
