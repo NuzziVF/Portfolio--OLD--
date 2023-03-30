@@ -648,7 +648,7 @@ section {
   }
 
   .flex-bubble {
-    padding: 2rem;
+    padding: 4rem;
     padding-top: 0rem;
     margin-top: 1rem;
   }
@@ -739,7 +739,7 @@ section {
   }
 
   .content-bubble {
-    width: 20rem;
+    width: 25rem;
   }
 
   .section-4-header-wrapper {
@@ -842,7 +842,7 @@ section {
   }
 
   .spring {
-    left: 59%;
+    left: 63%;
     top: -2rem;
     width: 9rem;
   }
@@ -882,13 +882,14 @@ section {
     margin: 5.1rem;
   }
   .flex-bubble {
-    padding: 0.6rem;
+    padding: 2.6rem;
     padding-top: 0rem;
     margin-top: 0rem;
-    margin: 3.6rem;
+    margin: 5.6rem;
+    height: 67vh;
   }
   .content-bubble {
-    width: 13.2rem;
+    width: 23.2rem;
     margin: 0.6em;
   }
   .content-bubble p {
@@ -1010,8 +1011,9 @@ section {
   }
 
   .html-tag {
-    left: 40%;
-    width: 6rem;
+    left: 37%;
+    width: 8rem;
+    top: -17rem;
   }
 
   .django {
@@ -1033,7 +1035,8 @@ section {
 
   .sql {
     top: 0.3rem;
-    width: 7rem;
+    width: 9rem;
+    left: 36%;
   }
 
   .spring {
