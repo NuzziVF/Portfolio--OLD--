@@ -395,11 +395,13 @@ section {
 .flex-bubble {
   display: flex;
   flex-wrap: wrap;
-  padding: 5rem;
+  padding: 1rem;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin: 5rem;
+  margin: 9rem;
   margin-top: 2rem;
+  height: 76vh;
+  overflow: auto;
 }
 
 .content-bubble {
