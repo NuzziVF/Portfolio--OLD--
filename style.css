@@ -280,9 +280,13 @@ section {
   align-items: center;
 }
 
+.skill-image {
+  width: 15rem;
+  border: solid aliceblue;
+}
+
 .python {
   opacity: 0.9;
-  width: 13rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -293,7 +297,6 @@ section {
 
 .html-tag {
   opacity: 0.9;
-  width: 16rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -304,7 +307,6 @@ section {
 
 .django {
   opacity: 0.9;
-  width: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,7 +317,6 @@ section {
 
 .javascript {
   opacity: 0.9;
-  width: 13rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -326,7 +327,6 @@ section {
 
 .java {
   opacity: 0.9;
-  width: 13rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -337,19 +337,16 @@ section {
 
 .sql {
   opacity: 0.9;
-  width: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: absolute;
   left: 69%;
-  top: -3rem;
 }
 
 .spring {
   opacity: 0.9;
-  width: 13rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -439,10 +436,9 @@ section {
 }
 
 .section-4-header-wrapper {
-  position: absolute;
-  top: 25%;
-  left: 28%;
-  transform: translate(-50%, -50%);
+  margin: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 0px;
 }
 
 .section-4-heading {
@@ -457,9 +453,7 @@ section {
 
 .section-4-paragraph {
   letter-spacing: 0.1rem;
-  width: 53rem;
-  position: relative;
-  top: 2rem;
+  padding: 1rem;
   font-size: 1.9rem;
 }
 
@@ -472,23 +466,29 @@ section {
   align-items: center;
 }
 
+.link-bubble {
+  margin: 9rem;
+  display: flex;
+}
+
+.image-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
 .github {
-  position: absolute;
-  left: 17%;
   width: 13rem;
 }
 
 .linkedin {
-  position: absolute;
-  left: 44%;
   width: 13rem;
 }
 
 .gmail {
-  position: absolute;
-  left: 70%;
-  width: 18.2rem;
-  top: -2.5rem;
+  width: 13rem;
 }
 
 @media (max-width: 1500px) {
