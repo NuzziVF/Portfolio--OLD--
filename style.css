@@ -417,6 +417,7 @@ section {
   border: solid 1px;
   margin-bottom: 5px;
   flex-grow: 1;
+  justify-content: space-between;
 }
 
 .content-bubble p {
