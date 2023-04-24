@@ -404,6 +404,7 @@ section {
   margin-top: 2rem;
   height: 76vh;
   overflow: auto;
+  justify-content: space-between;
 }
 
 .content-bubble {
@@ -415,6 +416,7 @@ section {
   width: 40rem;
   border: solid 1px;
   margin-bottom: 5px;
+  flex-grow: 1;
 }
 
 .content-bubble p {
